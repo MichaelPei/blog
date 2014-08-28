@@ -1,0 +1,1 @@
+Hexo powered blog.
