@@ -1,10 +1,12 @@
 {
   "name": "hexo-site",
-  "version": "2.8.2",
+  "version": "2.8.3",
   "private": true,
   "dependencies": {
+    "hexo-admin": "^0.3.0",
+    "hexo-feed-generator": "file:../../../../../../var/folders/g1/j4pf8hbj3752vsbmwpjzqw0r0000gn/T/npm-2908-1249778a/1421340565537-0.268883467419073/6cdfca5e72a2b7692a43397e51721a87a635afd9",
     "hexo-renderer-ejs": "*",
-    "hexo-renderer-stylus": "*",
-    "hexo-renderer-marked": "*"
+    "hexo-renderer-marked": "*",
+    "hexo-renderer-stylus": "*"
   }
 }

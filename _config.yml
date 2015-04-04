@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 随心所欲
+title: Lost
 subtitle:
 description:
 author: Michael Pei
-email:
+email: michael_pei@icloud.com
 language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.michaelpei.com
+url: http://michaelpei.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -34,7 +34,6 @@ filename_case: 0
 render_drafts: false
 post_asset_folder: false
 relative_link: false
-post_asset_folder: true
 highlight:
   enable: true
   line_number: true
@@ -79,6 +78,15 @@ disqus_shortname:
 
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+plugins:
+- hexo-feed-generator
+
+# Hexo Admin
+admin:
+  username: michael
+  password_hash: c73e01656cfe56d3bb95c45784a41140
+  secret: Michael Learn Code
+
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
 theme: landscape-plus
 exclude_generator:
